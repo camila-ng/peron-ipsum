@@ -2,9 +2,6 @@ let button = document.querySelector('.button');
 let title = document.querySelector('.title');
 let content = document.querySelector('.lorem-container');
 
-let lorem = ['Gobernar es fácil, lo difícil es conducir','La verdadera democracia es aquella donde el gobierno hace lo que el pueblo quiere y defiende un solo interés: el del pueblo', 'Las revoluciones se hacen con tiempo, o con sangre'];
-let newLorem
-
 button.addEventListener('click', function(){ 
     var newLorem = [];
 
