@@ -12,7 +12,6 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* flex-direction: column; */
   position: relative;
 }
 .header {
@@ -64,3 +63,22 @@ html {
   background-size: cover;
   position: relative;
 }
+
+
+@media (max-width: 600px) {
+    .content {
+      flex-direction: column;
+    }
+    .lorem-container{
+        width: 100%;
+    }
+
+    .peron-img{
+        width: 100%;
+    }
+
+    .header{
+        margin: 20px;
+        text-align: center;
+    }
+  }
