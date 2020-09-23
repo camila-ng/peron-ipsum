@@ -15,12 +15,3 @@ button.addEventListener('click', function(){
        
     }
 });
-
-
-
-// newLorem = randomLorem
-
-// let randomLorem = Math.floor(Math.random() * lorem.length)
-    //  while (newLorem === randomLorem) {
-    //     randomLorem = Math.floor(Math.random() * lorem.length);
-    // }
